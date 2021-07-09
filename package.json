@@ -1,0 +1,17 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-red-contrib-collect-variables": "file:customModules/collect-variables",
+        "node-red-contrib-example-confignode": "file:customModules/confignode_example",
+        "node-red-contrib-example-lower-case": "file:customModules/simplenode_example",
+        "node-red-contrib-globalvarsconfig": "file:customModules/globalvarsconfig",
+        "node-red-contrib-newmodule": "file:customModules/newmodule",
+        "node-red-contrib-nodewithconfig": "file:customModules/nodewithconfig_example",
+        "node-red-contrib-opcua": "^0.2.230",
+        "node-red-contrib-remote-server-config": "file:customModules/remote-server_example",
+        "node-red-contrib-select-variables": "file:customModules/select-variables"
+    }
+}
